@@ -5,6 +5,7 @@ var bignum = require('bignum');
 var n = parseInt(argv._[0], 10);
 if(!Number.isInteger(n)){
   console.error(n + ' is not an integer.');
+  process.exit(1);
 }
 
 var primes = generatePrimes(n);

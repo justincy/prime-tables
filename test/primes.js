@@ -4,8 +4,10 @@ const primesList = require('./primes.json');
 
 describe('primes', function(){
   
-  it('5 primes', function(){
-    assert.deepEqual(primes(5), primesList.slice(0, 5));
+  it('<=5 primes', function(){
+    for(var i = 1; i <= 5; i++){
+      assert.deepEqual(primes(i), primesList.slice(0, i), `Error generating ${i} primes`);
+    }
   });
   
   it('10 primes', function(){
