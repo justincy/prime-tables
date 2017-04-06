@@ -4,7 +4,8 @@
   "description": "output a multiplication table of the first N primes",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "test:debug": "env DEBUG=* mocha"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
     "bignum": "^0.12.5",
     "chai": "^3.5.0",
     "mocha": "^3.2.0"
+  },
+  "devDependencies": {
+    "debug": "^2.6.3"
   }
 }

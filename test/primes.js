@@ -3,7 +3,7 @@ const assert = require('chai').assert;
 
 describe('primes', function(){
   
-  it.only('5 primes', function(){
+  it('5 primes', function(){
     assert.deepEqual(primes(5), [2, 3, 5, 7, 11]);
   });
   
