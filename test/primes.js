@@ -26,4 +26,9 @@ describe('primes', function(){
     assert.deepEqual(primes(10000), primesList);
   });
   
+  it('100,000 primes in < 2s', function(){
+    this.timeout(2000);
+    primes(100000);
+  });
+  
 });
