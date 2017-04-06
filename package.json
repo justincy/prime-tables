@@ -1,0 +1,24 @@
+{
+  "name": "prime-tables",
+  "version": "1.0.0",
+  "description": "output a multiplication table of the first N primes",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justincy/prime-tables.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/justincy/prime-tables/issues"
+  },
+  "homepage": "https://github.com/justincy/prime-tables#readme",
+  "dependencies": {
+    "bignum": "^0.12.5",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
