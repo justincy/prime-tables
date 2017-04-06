@@ -4,10 +4,10 @@ const assert = require('chai').assert;
 describe('limit', function(){
   
   it('returns an integer', function(){
-    isInteger(10);
-    isInteger(100);
-    isInteger(1000);
-    isInteger(10000);
+    assert(Number.isInteger(10));
+    assert(Number.isInteger(100));
+    assert(Number.isInteger(1000));
+    assert(Number.isInteger(10000));
   });
   
   it('10', function(){
@@ -27,7 +27,3 @@ describe('limit', function(){
   });
   
 });
-
-function isInteger(n){
-  return assert(n - Math.round(n) === 0, n + 'is not an integer.');
-}
