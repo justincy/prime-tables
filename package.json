@@ -19,10 +19,11 @@
   "homepage": "https://github.com/justincy/prime-tables#readme",
   "dependencies": {
     "bignum": "^0.12.5",
-    "chai": "^3.5.0",
-    "mocha": "^3.2.0"
+    "minimist": "^1.2.0"
   },
   "devDependencies": {
-    "debug": "^2.6.3"
+    "debug": "^2.6.3",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
   }
 }
